@@ -32,7 +32,7 @@ public class Main {
         return option;
     }
 
-    public static void scannerNumbers(){
+    public static int [] scannerNumbers(){
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter first number ---> ");
@@ -40,14 +40,21 @@ public class Main {
 
         System.out.print("Enter second number ---> ");
         int b = sc.nextInt();
+
+        return new int[] {a,b};
     }
+
+
     //endregion
 
     //region Comparador
     public static void comparator(char option){
         while(option != '#'){
             if (option == '+'){
-                
+                int [] numbers = scannerNumbers();
+                System.out.println(numbers[0]+ "+" + numbers [1] + "= " + numbers[0]+ numbers[1]);
+
+
             }
         }
     }
