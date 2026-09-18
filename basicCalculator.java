@@ -63,6 +63,7 @@ public class Main {
                 int[] numbers = scannerNumbers();
                 System.out.println (numbers[0] + '/' + numbers[1] + "= " +(numbers[0] / numbers[1]));
             }
+            
         }
     }
     //endregion
