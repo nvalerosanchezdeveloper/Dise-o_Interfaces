@@ -56,7 +56,16 @@ public class Main {
             } else if (option == '-'){
               int[] numbers = scannerNumbers();
               System.out.println( numbers[0] + "-" + numbers [1] + "= " +(numbers[0] - numbers[1]));
-            }
+            } else if (option == '*'){
+              int[] numbers = scannerNumbers;
+              System.out.println (numbers[0] + '*' + numbers[1] + "= " +(numbers[0] * numbers[1]));
+            } else if (option == '/'){
+              int[] numbers = scannerNumbers;
+              System.out.println (numbers[0] + '/' + numbers[1] + "= " +(numbers[0] / numbers[1]));
+            } else    (option == '#'){
+              int[] numbers = scannerNumbers;
+              System.out.println (numbers[0] + '#' + numbers[1] + "= " +(numbers[0] # numbers[1]));
+            }    
         }
     }
     //endregion
