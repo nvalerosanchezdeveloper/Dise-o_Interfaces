@@ -63,8 +63,7 @@ public class Main {
               int[] numbers = scannerNumbers;
               System.out.println (numbers[0] + '/' + numbers[1] + "= " +(numbers[0] / numbers[1]));
             } else    (option == '#'){
-              int[] numbers = scannerNumbers;
-              System.out.println (numbers[0] + '#' + numbers[1] + "= " +(numbers[0] # numbers[1]));
+              System.out.println (numbers[0] + '#' + numbers[1]);
             }    
         }
     }
