@@ -10,12 +10,12 @@ public class Main {
         char [] operators = {'+','-','*','/','#'};
 
         System.out.printf("[--------------=== FOR USERS ===--------------]\n\n" +
-                        "|--- OPTIONS ARE SET AS NUMBERS FROM 1 - 5 ---|\n" +
-                        "|---        OPTION 1: Addition (+)         ---|\n" +
-                        "|---        OPTION 2: Substraction (-)     ---|\n" +
-                        "|---        Option 3: Multiplication (*)   ---|\n" +
-                        "|---        Option 4: Division (/)         ---|\n" +
-                        "|---        Option 5: End (#)              ---|\n" );
+                "|--- OPTIONS ARE SET AS NUMBERS FROM 1 - 5 ---|\n" +
+                "|---        OPTION 1: Addition (+)         ---|\n" +
+                "|---        OPTION 2: Substraction (-)     ---|\n" +
+                "|---        Option 3: Multiplication (*)   ---|\n" +
+                "|---        Option 4: Division (/)         ---|\n" +
+                "|---        Option 5: End (#)              ---|\n" );
 
         char option = scannerOperators();
         comparator (option);
@@ -63,7 +63,7 @@ public class Main {
                 int[] numbers = scannerNumbers();
                 System.out.println (numbers[0] + '/' + numbers[1] + "= " +(numbers[0] / numbers[1]));
             }
-            
+            option = scannerOperators();
         }
     }
     //endregion
